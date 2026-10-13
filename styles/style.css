@@ -52,6 +52,7 @@
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .content-section {
@@ -232,7 +233,8 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.button__text {
+.button--save .button__text,
+.dialog__button .button__text {
   text-transform: uppercase;
 }
 
@@ -317,6 +319,15 @@
 }
 
 @media (width <= 375px) {
+
+  :root {
+    --header-padding-block: clamp(121px, 32.27vw, 140px);
+  }
+
+  .header {
+    padding-block: var(--header-padding-block);
+  }
+  
   .header__title {
     gap: 20px;
   }
@@ -328,7 +339,6 @@
 
   .header__title-text {
     font-size: 14px;
-    white-space: nowrap;
   }
 
   .button--save {
