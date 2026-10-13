@@ -233,17 +233,16 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.button--save .button__text,
-.dialog__button .button__text {
-  text-transform: uppercase;
-}
-
 .button__text,
 .button__icon {
   position: relative;
   z-index: 1;
   color: var(--button-text-color);
   mix-blend-mode: difference;
+}
+
+.dialog__button .button__text {
+  text-transform: uppercase;
 }
 
 
