@@ -28,7 +28,9 @@
     );
     --content-width: clamp(375px, 50vw + 187.5px, 700px);
     --header-padding-inline: clamp(0.875rem, 0.6544rem + 0.9412vw, 1.5rem);
-    --header-padding-block: clamp(7.5rem, 6.6176rem + 3.7647vw, 10rem);
+    --header-padding-block: clamp(6rem, 5.1176rem + 3.7647vw, 8.1rem);
     --header-logo-size: clamp(0.875rem, 0.6544rem + 0.9412vw, 1.4375rem);
     --header-title-size: clamp(3.0625rem, 2.7096rem + 1.5059vw, 4.0625rem);
+    --header-title-code-full: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --header-title-code-short: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
